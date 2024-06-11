@@ -1,0 +1,244 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.Akif.HW1"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="26"
+9-->/Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->/Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml
+11
+12    <supports-screens
+12-->/Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->/Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->/Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->/Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->/Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->/Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:106-134
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-67
+19-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-64
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-65
+20-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-62
+21
+22    <uses-feature android:glEsVersion="0x00020000" />
+22-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-54
+22-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:19-51
+23    <uses-feature
+23-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:5-16:36
+24        android:name="android.hardware.camera"
+24-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-47
+25        android:required="true" />
+25-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-33
+26    <uses-feature
+26-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-19:36
+27        android:name="android.hardware.camera.autofocus"
+27-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-57
+28        android:required="false" />
+28-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-33
+29    <uses-feature
+29-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:5-22:36
+30        android:name="android.hardware.camera.front"
+30-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-53
+31        android:required="false" />
+31-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:9-33
+32    <uses-feature
+32-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:5-25:36
+33        android:name="android.hardware.touchscreen"
+33-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:9-52
+34        android:required="false" />
+34-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-33
+35    <uses-feature
+35-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:5-28:36
+36        android:name="android.hardware.touchscreen.multitouch"
+36-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:9-63
+37        android:required="false" />
+37-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-33
+38    <uses-feature
+38-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:5-31:36
+39        android:name="android.hardware.touchscreen.multitouch.distinct"
+39-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:9-72
+40        android:required="false" />
+40-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:9-33
+41    <uses-feature
+41-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:5-34:35
+42        android:name="android.hardware.camera.ar"
+42-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:9-50
+43        android:required="true" />
+43-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-32
+44    <uses-feature
+44-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:5-37:35
+45        android:name="com.google.ar.core.depth"
+45-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:9-48
+46        android:required="true" />
+46-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-32
+47
+48    <queries>
+48-->[:arcore_client:] /Users/sevilgen/.gradle/caches/transforms-3/ece6358c3c3b544f3d6f3cc51ffa918c/transformed/arcore_client/AndroidManifest.xml:29:5-31:15
+49        <package android:name="com.google.ar.core" />
+49-->[:arcore_client:] /Users/sevilgen/.gradle/caches/transforms-3/ece6358c3c3b544f3d6f3cc51ffa918c/transformed/arcore_client/AndroidManifest.xml:30:9-54
+49-->[:arcore_client:] /Users/sevilgen/.gradle/caches/transforms-3/ece6358c3c3b544f3d6f3cc51ffa918c/transformed/arcore_client/AndroidManifest.xml:30:18-51
+50    </queries>
+51    <!--
+52        Required by Vuforia: Add this permission to access IMU sensors at high rate
+53        for device tracker functionality on Android 12+.
+54    -->
+55    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" /> <!-- Required by Vuforia: Add this permission to allow checking of network. -->
+55-->[:VuforiaEngine:] /Users/sevilgen/.gradle/caches/transforms-3/1197373c69955c23c987919b13f35dd9/transformed/VuforiaEngine/AndroidManifest.xml:16:5-85
+55-->[:VuforiaEngine:] /Users/sevilgen/.gradle/caches/transforms-3/1197373c69955c23c987919b13f35dd9/transformed/VuforiaEngine/AndroidManifest.xml:16:22-82
+56    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+56-->[:VuforiaEngine:] /Users/sevilgen/.gradle/caches/transforms-3/1197373c69955c23c987919b13f35dd9/transformed/VuforiaEngine/AndroidManifest.xml:19:5-79
+56-->[:VuforiaEngine:] /Users/sevilgen/.gradle/caches/transforms-3/1197373c69955c23c987919b13f35dd9/transformed/VuforiaEngine/AndroidManifest.xml:19:22-76
+57
+58    <application
+58-->/Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:3-83
+59        android:debuggable="true"
+60        android:extractNativeLibs="true"
+60-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:18-50
+61        android:icon="@mipmap/app_icon"
+61-->/Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:49-80
+62        android:label="@string/app_name" >
+62-->/Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:16-48
+63        <meta-data
+63-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-42:33
+64            android:name="unity.splash-mode"
+64-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-45
+65            android:value="0" />
+65-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-30
+66        <meta-data
+66-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:9-45:36
+67            android:name="unity.splash-enable"
+67-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:13-47
+68            android:value="True" />
+68-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:45:13-33
+69        <meta-data
+69-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:46:9-48:36
+70            android:name="unity.launch-fullscreen"
+70-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:47:13-51
+71            android:value="True" />
+71-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:48:13-33
+72        <meta-data
+72-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:49:9-51:37
+73            android:name="unity.allow-resizable-window"
+73-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:50:13-56
+74            android:value="False" />
+74-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:51:13-34
+75        <meta-data
+75-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:52:9-54:50
+76            android:name="notch.config"
+76-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:53:13-40
+77            android:value="portrait|landscape" />
+77-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:54:13-47
+78        <meta-data
+78-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:55:9-57:36
+79            android:name="unity.auto-report-fully-drawn"
+79-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:56:13-57
+80            android:value="true" />
+80-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:57:13-33
+81
+82        <activity
+82-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:59:9-80:20
+83            android:name="com.unity3d.player.UnityPlayerActivity"
+83-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:60:13-66
+84            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+84-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:61:13-194
+85            android:exported="true"
+85-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:62:13-36
+86            android:hardwareAccelerated="false"
+86-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:63:13-48
+87            android:launchMode="singleTask"
+87-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:64:13-44
+88            android:resizeableActivity="false"
+88-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:65:13-47
+89            android:screenOrientation="fullUser"
+89-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:66:13-49
+90            android:theme="@style/UnityThemeSelector" >
+90-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:67:13-54
+91            <intent-filter>
+91-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:68:13-72:29
+92                <category android:name="android.intent.category.LAUNCHER" />
+92-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:69:17-77
+92-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:69:27-74
+93
+94                <action android:name="android.intent.action.MAIN" />
+94-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:71:17-69
+94-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:71:25-66
+95            </intent-filter>
+96
+97            <meta-data
+97-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:74:13-76:40
+98                android:name="unityplayer.UnityActivity"
+98-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:75:17-57
+99                android:value="true" />
+99-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:76:17-37
+100            <meta-data
+100-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:77:13-79:40
+101                android:name="notch_support"
+101-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:78:17-45
+102                android:value="true" />
+102-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:79:17-37
+103        </activity>
+104
+105        <meta-data
+105-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:82:9-84:36
+106            android:name="unityplayer.SkipPermissionsDialog"
+106-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:83:13-61
+107            android:value="true" />
+107-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:84:13-33
+108        <meta-data
+108-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:85:9-87:40
+109            android:name="com.google.ar.core"
+109-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:86:13-46
+110            android:value="required" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+110-->[:unityLibrary] /Users/sevilgen/Downloads/CSE462-HW1-main/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:87:13-37
+111        <meta-data
+111-->[:arcore_client:] /Users/sevilgen/.gradle/caches/transforms-3/ece6358c3c3b544f3d6f3cc51ffa918c/transformed/arcore_client/AndroidManifest.xml:36:9-38:41
+112            android:name="com.google.ar.core.min_apk_version"
+112-->[:arcore_client:] /Users/sevilgen/.gradle/caches/transforms-3/ece6358c3c3b544f3d6f3cc51ffa918c/transformed/arcore_client/AndroidManifest.xml:37:13-62
+113            android:value="220920000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+113-->[:arcore_client:] /Users/sevilgen/.gradle/caches/transforms-3/ece6358c3c3b544f3d6f3cc51ffa918c/transformed/arcore_client/AndroidManifest.xml:38:13-38
+114        <activity
+114-->[:arcore_client:] /Users/sevilgen/.gradle/caches/transforms-3/ece6358c3c3b544f3d6f3cc51ffa918c/transformed/arcore_client/AndroidManifest.xml:40:9-46:80
+115            android:name="com.google.ar.core.InstallActivity"
+115-->[:arcore_client:] /Users/sevilgen/.gradle/caches/transforms-3/ece6358c3c3b544f3d6f3cc51ffa918c/transformed/arcore_client/AndroidManifest.xml:41:13-62
+116            android:configChanges="keyboardHidden|orientation|screenSize"
+116-->[:arcore_client:] /Users/sevilgen/.gradle/caches/transforms-3/ece6358c3c3b544f3d6f3cc51ffa918c/transformed/arcore_client/AndroidManifest.xml:42:13-74
+117            android:excludeFromRecents="true"
+117-->[:arcore_client:] /Users/sevilgen/.gradle/caches/transforms-3/ece6358c3c3b544f3d6f3cc51ffa918c/transformed/arcore_client/AndroidManifest.xml:43:13-46
+118            android:exported="false"
+118-->[:arcore_client:] /Users/sevilgen/.gradle/caches/transforms-3/ece6358c3c3b544f3d6f3cc51ffa918c/transformed/arcore_client/AndroidManifest.xml:44:13-37
+119            android:launchMode="singleTop"
+119-->[:arcore_client:] /Users/sevilgen/.gradle/caches/transforms-3/ece6358c3c3b544f3d6f3cc51ffa918c/transformed/arcore_client/AndroidManifest.xml:45:13-43
+120            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+120-->[:arcore_client:] /Users/sevilgen/.gradle/caches/transforms-3/ece6358c3c3b544f3d6f3cc51ffa918c/transformed/arcore_client/AndroidManifest.xml:46:13-77
+121
+122        <provider
+122-->[:VuforiaEngine:] /Users/sevilgen/.gradle/caches/transforms-3/1197373c69955c23c987919b13f35dd9/transformed/VuforiaEngine/AndroidManifest.xml:25:9-33:20
+123            android:name="com.vuforia.engine.app.VuforiaContentProvider"
+123-->[:VuforiaEngine:] /Users/sevilgen/.gradle/caches/transforms-3/1197373c69955c23c987919b13f35dd9/transformed/VuforiaEngine/AndroidManifest.xml:26:13-73
+124            android:authorities="com.Akif.HW1.vuforia.share"
+124-->[:VuforiaEngine:] /Users/sevilgen/.gradle/caches/transforms-3/1197373c69955c23c987919b13f35dd9/transformed/VuforiaEngine/AndroidManifest.xml:27:13-65
+125            android:exported="false"
+125-->[:VuforiaEngine:] /Users/sevilgen/.gradle/caches/transforms-3/1197373c69955c23c987919b13f35dd9/transformed/VuforiaEngine/AndroidManifest.xml:28:13-37
+126            android:grantUriPermissions="true" >
+126-->[:VuforiaEngine:] /Users/sevilgen/.gradle/caches/transforms-3/1197373c69955c23c987919b13f35dd9/transformed/VuforiaEngine/AndroidManifest.xml:29:13-47
+127            <meta-data
+127-->[:VuforiaEngine:] /Users/sevilgen/.gradle/caches/transforms-3/1197373c69955c23c987919b13f35dd9/transformed/VuforiaEngine/AndroidManifest.xml:30:13-32:53
+128                android:name="android.support.FILE_PROVIDER_PATHS"
+128-->[:VuforiaEngine:] /Users/sevilgen/.gradle/caches/transforms-3/1197373c69955c23c987919b13f35dd9/transformed/VuforiaEngine/AndroidManifest.xml:31:17-67
+129                android:resource="@xml/filepaths" />
+129-->[:VuforiaEngine:] /Users/sevilgen/.gradle/caches/transforms-3/1197373c69955c23c987919b13f35dd9/transformed/VuforiaEngine/AndroidManifest.xml:32:17-50
+130        </provider>
+131    </application>
+132
+133</manifest>
